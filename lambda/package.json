@@ -1,0 +1,19 @@
+{
+  "name": "reddit-trend",
+  "version": "1.0.0",
+  "description": "determines popular content from a subreddit",
+  "main": "main.js",
+  "author": "Kyle Gengler <kyle.gengler@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -f deployment.zip && zip -r deployment.zip node_modules && zip -ju deployment.zip src/*",
+    "test": "jasmine"
+  },
+  "dependencies": {
+    "node-rest-client": "^3.1.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.6.0",
+    "rewire": "^2.5.2"
+  }
+}
