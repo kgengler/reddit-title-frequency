@@ -1,7 +1,7 @@
 {
-  "name": "reddit-trend",
+  "name": "reddit-frequency-lambda",
   "version": "1.0.0",
-  "description": "determines popular content from a subreddit",
+  "description": "determines title word frequency from a subreddit",
   "main": "main.js",
   "author": "Kyle Gengler <kyle.gengler@gmail.com>",
   "license": "MIT",
